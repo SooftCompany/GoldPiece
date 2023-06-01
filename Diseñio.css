@@ -1,0 +1,96 @@
+body
+{
+	background-image: url("Imagenes/BeginFondo.gif");
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#BeginBox
+{
+	background: wheat;
+	width: auto;
+	height: 250px;
+	text-align: center;
+}
+
+#CenterBox
+{
+	background: wheat;
+	width: auto;
+	height: 500px;
+	text-align: center;
+}
+
+#EndBox
+{
+	background: wheat;
+	text-align: center;
+}
+#BoxRooms
+{
+	background-image: url("Imagenes/CentersFondos.gif");
+	display: flex;
+	width: 800px;
+	height: 300px;
+	overflow-x: scroll;
+	border: 5px solid black;
+	border-radius: 5%;
+	text-shadow: 5px 2px 5px red;
+	margin: auto;
+}
+
+.Rooms
+{
+	background: yellow;
+	width: 150px;
+	height: 200px;
+	border: 2px solid black;
+	margin: 20px;
+}
+
+.Imagen
+{
+	width: 100px;
+	height: 60px;
+	margin: 10px;
+}
+
+.BotonInfo
+{
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	background: orange;
+	cursor: pointer;
+}
+
+
+
+
+/*ajustes de detalles adicional*/
+
+.BoxDetalles
+{
+	display: flex;
+}
+
+.PortImage
+{
+	width: 300px;
+	height: 190px;
+	margin: auto;
+	border-radius: 50px;
+}
+
+.TextoComun
+{
+	margin: auto;
+}
+
+@media(max-width: 900px)
+{
+	#BoxRooms
+	{
+		width: 350px;
+	    height: 250px;
+	}
+}
