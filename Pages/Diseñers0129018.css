@@ -1,0 +1,53 @@
+body
+{
+	background: wheat;
+	text-align: center;
+	text-shadow: 1px 2px 3px black;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+/*textos adicionales para diseño*/
+
+#TituloBace
+{
+	color: white;
+	size: 50px;
+}
+
+#ParafoBace
+{
+	size: 25px;
+	color: red;
+}
+
+#BotonBace
+{
+	width: 100px;
+	height: 70px;
+	margin: 20px;
+}
+
+#Beginer
+{
+	margin: 250px;
+}
+
+/*optimizador para android samsung*/
+
+@media(max-width: 900px)
+{
+	#Beginer
+	{
+		margin: 50px;
+	}
+
+	#TituloBace
+	{
+		size: 25px;
+	}
+
+	#ParafoBace
+	{
+		size: 10px;
+	}
+}
